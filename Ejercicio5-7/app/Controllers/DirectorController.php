@@ -10,14 +10,30 @@ class DirectorController extends BaseController
     {
         $usuario = session('success');
         $usuarioModel = new Persona_model();
-        echo $usuario['tipo'];
-        //$clientes = $usuarioModel->where('departamento', $usuario['departamento'])
-        //                         ->findAll();
-        //$suma_total = 0;
-        //foreach ($clientes as $cliente) {
-        //    $suma_total += $cliente['cuenta'];
-        //}
-        //return view('Director_view', ['director' => $usuario, 'suma_total' => $suma_total]);
+
+        $datos = $usuarioModel->where('correo', $usuario['correo'])
+                             ->first();
+
+        $data = ['datos' => $datos];
+
+        $tablita = $usuarioModel->query("
+        SELECT 
+      sum(CASE when departamento= 'Potosi' then monto else 0 end)as Potosi,
+      sum(CASE when departamento= 'La Paz' then monto else 0 end)as La_Paz,
+      sum(CASE when departamento= 'Cochabamba' then monto else 0 end)as Cochabamba,
+      sum(CASE when departamento= 'Oruro' then monto else 0 end)as Oruro,
+      sum(CASE when departamento= 'Beni' then monto else 0 end)as Beni,
+      sum(CASE when departamento= 'Tarija' then monto else 0 end)as Tarija,
+      sum(CASE when departamento= 'Chuquisaca' then monto else 0 end)as Chuquisaca,
+      sum(CASE when departamento= 'Santa Cruz' then monto else 0 end)as Santa_Cruz,
+      sum(CASE when departamento= 'Pando' then monto else 0 end)as Pando
+          
+      FROM persona JOIN cuenta on persona.carnet = cuenta.carnet
+        ") ->getResultArray();
+
+        $data['tabla'] = $tablita[0];
+
+        return view('Director_view', $data);
     }
 }
 ?>

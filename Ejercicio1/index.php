@@ -1,4 +1,4 @@
-<?php include '../layouts/header.php';?>
+<?php include 'header.php';?>
 
 
     <div class="container">
@@ -19,4 +19,4 @@
 
 
 
-<?php include '../layouts/footer.php';?>
+<?php include 'footer.php';?>
