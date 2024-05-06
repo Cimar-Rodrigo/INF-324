@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F9qGUKotWCH+4UfBxiJk/wktgaACE5eW95iHEJ1ovIxKeYpqh+jJB8r4n1mEwOtyssCqyOfYeLRGctYgqntnxA==",
+  "dgSpecHash": "i5jLiFlTF4/u+BByvH5myIyFYNEWolzDNF9Y14H8XYTTi8bOXr88dhaOyzVohMIqJrklzAVF/gJ3++3RdAJOKw==",
   "success": true,
-  "projectFilePath": "F:\\ReposVisual\\Ejer4\\Ejer4\\Ejer4.csproj",
+  "projectFilePath": "C:\\xampp\\htdocs\\Examen324\\Ejercicio4\\EjerNET\\Ejer4\\Ejer4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

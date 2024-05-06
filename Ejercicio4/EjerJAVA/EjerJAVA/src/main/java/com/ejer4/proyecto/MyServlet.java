@@ -43,8 +43,6 @@ public class MyServlet extends HttpServlet {
 		
 		HttpURLConnection con1 = (HttpURLConnection) url1.openConnection();
 		HttpURLConnection con2 = (HttpURLConnection) url2.openConnection();
-		
-		System.out.println("ccc");
 		con1.setRequestMethod("GET");
 		
 		BufferedReader in1 = new BufferedReader(new InputStreamReader(con1.getInputStream()));

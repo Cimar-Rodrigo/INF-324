@@ -60,11 +60,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\ReposVisual\\Ejer4\\Ejer4\\Ejer4.csproj",
+      "projectUniqueName": "C:\\xampp\\htdocs\\Examen324\\Ejercicio4\\EjerNET\\Ejer4\\Ejer4.csproj",
       "projectName": "Ejer4",
-      "projectPath": "F:\\ReposVisual\\Ejer4\\Ejer4\\Ejer4.csproj",
+      "projectPath": "C:\\xampp\\htdocs\\Examen324\\Ejercicio4\\EjerNET\\Ejer4\\Ejer4.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "F:\\ReposVisual\\Ejer4\\Ejer4\\obj\\",
+      "outputPath": "C:\\xampp\\htdocs\\Examen324\\Ejercicio4\\EjerNET\\Ejer4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",

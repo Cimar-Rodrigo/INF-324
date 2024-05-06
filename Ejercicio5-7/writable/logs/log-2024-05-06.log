@@ -1,0 +1,10 @@
+CRITICAL - 2024-05-06 01:47:20 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: director]
+in APPPATH\Controllers\DirectorController.php on line 14.
+ 1 APPPATH\Controllers\DirectorController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Examen324\\Ejercicio5-7\\app\\Controllers\\DirectorController.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DirectorController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DirectorController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
