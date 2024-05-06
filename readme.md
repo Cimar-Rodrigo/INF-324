@@ -11,3 +11,5 @@ Para poder ejecutar sin ningun tipo de problema los ejercicios asegurarse que la
 Para el uso de **Visual Studio** solo abrir el archivo con la solución.
 
 Para el uso de **JAVA** abrir como workspace todo el directorio de **EjerJAVA**.
+
+Para el ejercicio 5-7 ubicar la URL en **/inicio**
