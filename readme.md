@@ -2,7 +2,7 @@
 
 ## 1. Pre-requisitos
 
-Antes de empezar se debe crear las bases de datos correspondientes dentro de la carpeta **database** para la base de datos se utilizó **MySQL**, para los ejercicios: 1, 2, 5, 6, 7 y 10 se utilizó **PHP 8.3.6**, para los ejercicios: 3, 4, 8, 9 se utilizó **Visual Studio 2022** y para el ejercicio 4 se utilizo el IDE **Eclipse con Java 18.0.2.1**.
+Antes de empezar se debe crear las bases de datos correspondientes con los scripts de la carpeta **database** para la base de datos se utilizó **MySQL**, para los ejercicios: 1, 2, 5, 6, 7 y 10 se utilizó **PHP 8.3.6**, para los ejercicios: 3, 4, 8, 9 se utilizó **Visual Studio 2022** y para el ejercicio 4 se utilizo el IDE **Eclipse con Java 18.0.2.1**.
 
 ## 2. Ejecución
 
