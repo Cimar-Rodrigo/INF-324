@@ -16,4 +16,4 @@ Para el ejercicio 5-7 ubicar la URL en **/inicio**
 
 Para el ejercicio 2 se esta utilizando la base de datos **bd-324**, para el ejercicio 3 se esta utilizando la base de datos **bd-324v2** y para el resto la base de datos **bdejer4**
 
-Para el ejercicio 4 en el login ingresar con **marcelo@gmail.com** para director bancario, y para cliente como **juan@gmail.com y pedro@gmail.com**
+Para el ejercicio 4 en el login ingresar con **<marcelo@gmail.com>** para director bancario, y para cliente como **<juan@gmail.com> y <pedro@gmail.com>**
