@@ -13,3 +13,5 @@ Para el uso de **Visual Studio** solo abrir el archivo con la solución.
 Para el uso de **JAVA** abrir como workspace todo el directorio de **EjerJAVA**.
 
 Para el ejercicio 5-7 ubicar la URL en **/inicio**
+
+Para el ejercicio 2 se esta utilizando la base de datos **bd-324**, para el ejercicio 3 se esta utilizando la base de datos **bd-324v2** y para el resto la base de datos **bdejer4**
