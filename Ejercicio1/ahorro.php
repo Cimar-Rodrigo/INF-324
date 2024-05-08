@@ -7,12 +7,12 @@
             <p>Una cuenta de ahorro es una cuenta bancaria diseñada para ahorrar dinero. Por lo general, ofrecen intereses sobre los saldos depositados.</p>
     </div>
 
+    <a href="index.php">
+
+        <button>Volver</button>
+    </a>
+
 </div>
-
-<!-- pon mas informacion -->
-
-
-<
 
 
 

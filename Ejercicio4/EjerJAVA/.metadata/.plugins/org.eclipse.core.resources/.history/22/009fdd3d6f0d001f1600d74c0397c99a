@@ -57,6 +57,7 @@
                         out.print(x);
                 }
             }
+            out.println("<br>Datos de la API: " + apiData );
 
         }
         catch(Exception e){
