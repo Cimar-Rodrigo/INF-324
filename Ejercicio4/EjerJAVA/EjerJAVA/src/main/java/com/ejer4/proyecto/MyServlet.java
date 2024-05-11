@@ -35,45 +35,15 @@ public class MyServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		String apiUrl1 = "http://localhost/Examen324/Ejercicio4/api1.php";
-		String apiUrl2 = "http://localhost/Examen324/Ejercicio4/api2.php";
-		
-		URL url1 = new URL(apiUrl1);
-		URL url2 = new URL(apiUrl2);
-		
-		HttpURLConnection con1 = (HttpURLConnection) url1.openConnection();
-		HttpURLConnection con2 = (HttpURLConnection) url2.openConnection();
-		con1.setRequestMethod("GET");
-		
-		BufferedReader in1 = new BufferedReader(new InputStreamReader(con1.getInputStream()));
-		BufferedReader in2 = new BufferedReader(new InputStreamReader(con2.getInputStream()));
-		
-		String inputLine1, inputLine2;
-		
-		StringBuffer content1 = new StringBuffer();
-		StringBuffer content2 = new StringBuffer();
 		
 		
-		while((inputLine1 = in1.readLine()) != null) {
-			content1.append(inputLine1);
-		}
+		String nombre  = (String) request.getParameter("nombre");
+		String edad = (String) request.getParameter("edad");
 		
 		
-		while((inputLine2 = in2.readLine()) != null) {
-			content2.append(inputLine2);
-		}
-		
-		in1.close();
-		in2.close();
 		
 		
-		request.setAttribute("apiData", content1.toString());
-		request.setAttribute("apiData2", content2.toString());
-		
-		
-		RequestDispatcher dispatcher = request.getRequestDispatcher("index.jsp");
-		dispatcher.forward(request, response);
-		//response.getWriter().append("Served at: ").append(request.getContextPath());
+		response.getWriter().append("<h1>").append(nombre).append(" ").append(edad).append("</h1>");
 	}
 
 	/**

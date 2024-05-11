@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ReposVisual\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj": {}
+    "C:\\xampp\\htdocs\\Examen324\\Ejercicio3\\WinFormsApp1\\WinFormsApp1.csproj": {}
   },
   "projects": {
-    "F:\\ReposVisual\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj": {
+    "C:\\xampp\\htdocs\\Examen324\\Ejercicio3\\WinFormsApp1\\WinFormsApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ReposVisual\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\Examen324\\Ejercicio3\\WinFormsApp1\\WinFormsApp1.csproj",
         "projectName": "WinFormsApp1",
-        "projectPath": "F:\\ReposVisual\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+        "projectPath": "C:\\xampp\\htdocs\\Examen324\\Ejercicio3\\WinFormsApp1\\WinFormsApp1.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "F:\\ReposVisual\\WinFormsApp1\\WinFormsApp1\\obj\\",
+        "outputPath": "C:\\xampp\\htdocs\\Examen324\\Ejercicio3\\WinFormsApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",

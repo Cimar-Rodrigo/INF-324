@@ -41,58 +41,6 @@
 </head>
 <body>
     <h1>Mostrando datos de las personas</h1>
-    <%
-        try{
-            String apiData = (String) request.getAttribute("apiData");
-
-            for(int i = 0; i < apiData.length(); i++){
-                char x = apiData.charAt(i);
-
-                if(x == '[' || x == '{' || x == ']' || x == '"'){
-
-                } else {
-                    if(x == '}' || x == ',')
-                        out.println("<br>");
-                    else
-                        out.print(x);
-                }
-            }
-
-        }
-        catch(Exception e){
-            out.println("");
-        }
-
-    %>
-
-    <br>
-    <br>
-    <h1>Mostrando datos de las cuentas</h1>
-    <%
-        try{
-            String apiData2 = (String) request.getAttribute("apiData2");
-
-            for(int i = 0; i < apiData2.length(); i++){
-                char x = apiData2.charAt(i);
-
-                if(x == '[' || x == '{' || x == ']' || x == '"'){
-
-                } else {
-                    if(x == '}' || x == ',')
-                        out.println("<br>");
-                    else
-                        out.print(x);
-                }
-            }
-
-        }
-        catch(Exception e){
-            out.println("");
-        }
-    %>
-    <br>
-    <a href="MyServlet">
-        <button type="button">GET</button>
-    </a>
+    
 </body>
 </html>
